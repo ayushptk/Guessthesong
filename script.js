@@ -1043,32 +1043,38 @@
 document.addEventListener("DOMContentLoaded", () => {
     const songs = [
         { title: "Merebina", src: "/Audio/Mere bina.mp3", hint: "emraan hashmi " },
-        { title: "TenuLeke", src: "/Audio/Tenu Leke.mp3", hint: "Salu bhai song" },
+        { title: "farqhai", src: "/Audio/Farqhai.mp3", hint: "hum tum" }, 
         { title: "Putali", src: "/Audio/Putali.mp3", hint: "The elements" },
-        { title: "Kajrare", src: "/Audio/Kajra re.mp3", hint: "Amita Bhachhan" },
-        { title: "AilaLuwaya", src: "/Audio/AilaLuwaya.mp3", hint: "Newari song" },
-        { title: "Mitwa", src: "/Audio/Mitwa.mp3", hint: "Old song" },
+        { title: "TenuLeke", src: "/Audio/Tenu Leke.mp3", hint: "Salu bhai song" },
         { title: "Ranga", src: "/Audio/Ranga.mp3", hint: "badal banerw aayeni" },
-        { title: "Daylight", src: "/Audio/Daylight.mp3", hint: "English Song" },
-        { title: "PeeLoon", src: "/Audio/Pee Loon.mp3", hint: "Emraan hashmi" },
-        { title: "TimiSangai", src: "/Audio/Timi Sangai.mp3", hint: "Yo saral" },
-        { title: "terenaina", src: "/Audio/tere naina.mp3", hint: "Akshya Kumar" },
-        { title: "DagabaazRe", src: "/Audio/Dagabaaz Re.mp3", hint: "Salu bhaii" },
-        { title: "ChunanariChunnari", src: "/Audio/Chunanari Chunnari.mp3", hint: "Salu bhaii" },
-        { title: "Gajalu", src: "/Audio/Gajalu.mp3", hint: "narayan gopal" },
-        { title: "Kasari", src: "/Audio/Kasari.mp3", hint: "How" },
-        { title: "KunfayaKun", src: "/Audio/Kun faya Kun.mp3", hint: "Rockstar" },
-        { title: "Lagjagale", src: "/Audio/Lagja gale.mp3", hint: "Old song" },
-        { title: "ManwaLaage", src: "/Audio/Manwa Laage.mp3", hint: "Srk" },
-        { title: "Radha", src: "/Audio/Radha.mp3", hint: "Alia bhatt" },
-        { title: "TirkhaLage", src: "/Audio/Tirkha lage.mp3", hint: "Nepali Old song" },
-        { title: "Behuli", src: "/Audio/Behuli.mp3", hint: "Indra Josi" },
-        { title: "farqhai", src: "/Audio/Farqhai.mp3", hint: "hum tum" },
-        { title: "Saudebazi", src: "/Audio/Saudebazi.mp3", hint: "Sauda" },
+        { title: "Kajrare", src: "/Audio/Kajra re.mp3", hint: "Amita Bhachhan" },
+        
+        { title: "Mitwa", src: "/Audio/Mitwa.mp3", hint: "Old song" },
+        { title: "Tumsehi", src: "/Audio/Tumsehi.mp3", hint: "My fav song Bollywood Song" },
         { title: "SawaarLoon", src: "/Audio/Sawaar Loon.mp3", hint: "Saw...." },
-        { title: "Tumsehi", src: "/Audio/Tumsehi.mp3", hint: "My fav song" },
-        { title: "Timropratiksa", src: "/Audio/timro pratiksha.mp3", hint: "Ma parkya raxu" },
-        { title: "Timirama", src: "/Audio/Timirama.mp3", hint: "You and me" },
+        { title: "Behuli", src: "/Audio/Behuli.mp3", hint: "Nepali song Indra Josi" },
+        { title: "PeeLoon", src: "/Audio/Pee Loon.mp3", hint: "Emraan hashmi" },
+        { title: "Kasari", src: "/Audio/Kasari.mp3", hint: "How" },
+        // { title: "Daylight", src: "/Audio/Daylight.mp3", hint: "English Song" },
+        { title: "Gajalu", src: "/Audio/Gajalu.mp3", hint: "narayan gopal" },
+        { title: "AilaLuwaya", src: "/Audio/AilaLuwaya.mp3", hint: "Newari song" }
+        // { title: "TimiSangai", src: "/Audio/Timi Sangai.mp3", hint: "Yo saral" },
+        // { title: "terenaina", src: "/Audio/tere naina.mp3", hint: "Akshya Kumar" },
+        // { title: "DagabaazRe", src: "/Audio/Dagabaaz Re.mp3", hint: "Salu bhaii" },
+        // { title: "ChunanariChunnari", src: "/Audio/Chunanari Chunnari.mp3", hint: "Salu bhaii" },
+     
+        // { title: "KunfayaKun", src: "/Audio/Kun faya Kun.mp3", hint: "Rockstar" },
+        // { title: "Lagjagale", src: "/Audio/Lagja gale.mp3", hint: "Old song" },
+        // { title: "ManwaLaage", src: "/Audio/Manwa Laage.mp3", hint: "Srk" },
+        // { title: "Radha", src: "/Audio/Radha.mp3", hint: "Alia bhatt" },
+        // { title: "TirkhaLage", src: "/Audio/Tirkha lage.mp3", hint: "Nepali Old song" },
+      
+      
+        // { title: "Saudebazi", src: "/Audio/Saudebazi.mp3", hint: "Sauda" },
+   
+    
+        // { title: "Timropratiksa", src: "/Audio/timro pratiksha.mp3", hint: "Ma parkya raxu" },
+        // { title: "Timirama", src: "/Audio/Timirama.mp3", hint: "You and me" },
     ];
     
     const playBtn = document.getElementById('play-btn');
